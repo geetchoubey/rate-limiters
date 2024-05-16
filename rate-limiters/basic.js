@@ -1,5 +1,3 @@
-const handleAsyncErrors = require('../async-handler');
-
 module.exports = (options) => {
     options = {
         LIMIT_WINDOW: 5 * 1000, // 5 seconds

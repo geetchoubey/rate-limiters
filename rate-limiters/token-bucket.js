@@ -1,5 +1,3 @@
-const handleAsyncErrors = require('../async-handler');
-
 module.exports = (options) => {
     options = {
         BUCKET_CAPACITY: 10, // Max tokens in the bucket
